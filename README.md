@@ -1,3 +1,1 @@
-# mintakson.com
-
-<http://www.mintakson.com>
+# http://codeinventory.com

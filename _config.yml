@@ -8,14 +8,24 @@
 # Site settings
 title:          mintakson.com
 description:    Mintak Son, who is software engineer.
-baseurl: "" # the subpath of your site, e.g. /blog
 url:            http://mintakson.com
+baseurl:        ""
+css_url:        "/static/css"
+img_url:        "/static/img"
+js_url:         "/static/js"
 disqus:         mintakson
 share:          true
 dropcap:	      true
 
-# Build settings
-markdown: kramdown
+# Build
+markdown:       kramdown
+highlighter:    pygments
+timezone:       Asia/Seoul
+future:         true
+rouge:          pygments
+paginate:       5
+paginate_path:  "page:num"
+permalink:      pretty
 
 # Owner/author information
 owner:
@@ -29,8 +39,11 @@ owner:
   github:         mintakson
   instagram:      smintfree
 
-google_analytics: UA-68684835-2
+google:
+  analytics:      UA-68684835-2
 
+disqus:
+  shortname:      mintakson
 
 links:
   - title: Home
@@ -41,17 +54,6 @@ links:
     url: /categories
   - title: About
     url: /about
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:     Asia/Seoul
-future:       true
-rouge:        pygments
-markdown:     kramdown
-paginate:     5
-paginate_path: "page:num"
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   pretty
 
 kramdown:
   auto_ids: true

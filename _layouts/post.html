@@ -1,15 +1,48 @@
----
-layout: default
----
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-</article>
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head.html %}
+  {% if site.dropcap %}
+  <link rel="stylesheet" href="{{ site.css_url }}/dropcap.css">
+  {% endif %}
+</head>
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">
+  <main id="notepad-post-container-simple" class="notepad-post-container-simple" role="main">
+    <header class="notepad-post-header-simple">
+      <div class="notepad-post-menu-header-simple">
+        {% include menu.html %}
+      </div>
+      <div class="notepad-post-title-simple row">
+        <div class="small-12 columns">
+          <div class="notepad-post-meta-simple">
+            <h1>{{ page.title }}</h1>
+            <p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <article class="notepad-post-content post tag-simple">
+      <div>{{ content }}</div>
+    </article>
+    <div class="cf"></div>
+    {% if site.share %}
+      {% include share.html %}
+    {% endif %}
+    <div class="cf"></div>
+    {% include signoff.html %}
+    <div class="cf"></div>
+    {% if site.disqus.shortname and page.comments == true %}
+      <section class="notepad-disqus row">
+        <div class="small-12 columns">
+          <h1 class="notepad-comments-header">Comments</h1>
+          <div id="disqus_thread"></div>
+          {% include comments.html %}
+        </div>
+      </section>
+    {% endif %}
+    <div class="cf"></div>
+    {% include footer.html %}
+  </main>
+  {% include scripts.html %}
+</body>
+</html>
