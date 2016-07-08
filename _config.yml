@@ -17,6 +17,7 @@ disqus:         mintakson
 share:          true
 dropcap:	      true
 
+
 # Build
 markdown:       kramdown
 highlighter:    pygments
@@ -25,19 +26,21 @@ future:         true
 rouge:          pygments
 paginate:       5
 paginate_path:  "page:num"
-permalink:      pretty
+permalink:      /blog/:title/
+
 
 # Owner/author information
 owner:
   name:           Mintak Son
   email:          mintak.son@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
+  description:    like me.
   # Social networking links used in footer. Update and remove as you like.
   twitter:        smintfreely
   facebook:       smintfree
   github:         mintakson
   instagram:      smintfree
+  avatar:         mintakson_avatar.jpg
 
 google:
   analytics:      UA-68684835-2
@@ -70,5 +73,17 @@ kramdown:
     coderay_css: class
 
 gems:
-- jemoji
-- jekyll-paginate
+  - jemoji
+  - jekyll-paginate
+
+atom:
+  buildCommand:
+    - jekyll
+    - build
+    - --drafts
+    - --option
+    - --this
+  buildEnv:
+    JEKYLL_ENV: development
+  postDirs:
+  defaultPostDir: _drafts
