@@ -9,6 +9,8 @@ chart: true
 I'm **Mintak Son**, who is full-stack developer with high interest and experience on client-side mobile app development and UX.  
 Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea Olympiad of Informatics).  
 
+I'm **Mintak Son**, who is full-stack developer with high interest and experience on client-side mobile app development and UX.  
+Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea Olympiad of Informatics).  
 
 
 ***
@@ -16,18 +18,16 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 # Work Experiences
 
 
-## SimSimi
+## SimSimi [<img src="{{ site.img_url }}/about/bi_simsimi.png" alt="SimSimi logo" style="float: right; max-height:60px;">](http://www.simsimi.com/)
 **Full-stack Software Engineer**  
 *Nov 2015 ~ Current*
 
-* DAU 2.2M + 339K = 2.5M+
-* MAU 19.33M + = 22M+
-* Daily API Call : 150M+
-* 동시접속자수 : 110,000+
+* 인공지능
+* DAU 2.5M+, MAU 22M+, 동시접속자수 110,000+, Daily API Call 150M+
 * 81개 언어로 전 세계 1억 이상의 누적 사용자에게 서비스.
 * 월 2000만 명의 사용자(MAU)에게 하루 2억 회 이상의 대화 응답 제공 기록.
-* iOS 전체 1위 42개국 (스페인, 중국, 대한민국, 베네수엘라, 이스라엘, 태국, 노르웨이, 홍콩, 필리핀, 멕시코, 아르헨티나 등)
-* iOS 전체 20위 이상 51개국 (2위 : 말레이지아, 미국, 스위스, 사우디아라비아, 아일랜드, 베트남 등. 3~5위 : 프랑스, 이집트, 인도네시아, 벨기에, 대만, 아랍에미리트 등. 6~20위 : 일본, 뉴질랜드, 캐나다, 러시아, 브라질, 호주, 캄보디아, 폴란드 등)
+* iOS 전체 1위 42개국 (스페인, 중국, 대한민국, 이스라엘, 태국, 노르웨이, 홍콩, 필리핀, 멕시코, 아르헨티나 등)
+* iOS 전체 20위 이상 51개국 (2위 : 미국, 스위스, 사우디아라비아, 아일랜드, 베트남 등. 3~5위 : 프랑스, 이집트, 인도네시아, 벨기에, 대만, 아랍에미리트 등. 6~20위 : 일본, 뉴질랜드, 캐나다, 러시아, 브라질, 호주, 캄보디아, 폴란드 등)
 * Android 전체 1위 14개국 (아르헨티나, 태국, 싱가폴, 파라과이, 필리핀, 멕시코, 칠레, 코스타리카, 스페인 등)
 * Android 전체 20위 이상 29개국 (미국, 중국, 아일랜드, 호주, 인도네시아, 프랑스, 말레이지아, 이태리, 대만, 폴란드, 크로아티아, 노르웨이, 벨기에, 카자흐스탄, 슬로베니아, 이스라엘 등)
 
@@ -39,9 +39,18 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 
 ### ROUND
 
-### Tyle
+* 위치 기반의 익명 SNS 앱으로, iOS 앱 개발을 단독으로 맡았습니다.
+* 현재는 서비스가 중단된 상태입니다.
 
-### Hitch
+### Tyle (Project Code)
+
+* 초기 기술 프로토타이핑과 iOS 앱 개발을 단독으로 맡았습니다.
+* 프로젝트로 진행됐으나, 실제로 서비스가 런칭되진 못했습니다.
+
+### Hitch (Project Code)
+
+* PM 으로 서비스 기획과 iOS 앱 개발을 단독으로 맡았습니다.
+* 프로젝트로 진행됐으나, 실제로 서비스가 런칭되진 못했습니다.
 
 ***
 
@@ -63,7 +72,7 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 
 ### Frankly
 
-### Subscribed
+### Subscribed (Project Code)
 
 ***
 
@@ -82,6 +91,34 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 *Jun 2011 ~ Mar 2012 (10m)*
 
 ***
+
+# Project
+
+## GetBeauty
+
+* 미국 내 성형외과 의사-환자 매칭 서비스 (앱/웹)
+* 백엔드 및 웹 프론트 엔드 담당
+* 단독 개발
+* HTML5, CSS, Python, django
+
+## Greenlite
+
+* 미국 내 익명 고민상담 서비스
+* iOS 클라이언트 개발 담당
+* 팀 멤버 2명, Lead Engineer
+* Swift
+
+## Hyundai-Card
+
+* 유전 알고리즘을 이용해 신입사원 최적의 부서 배치
+* 단독 개발
+* HTML5, bootstrap, Python
+
+## GetAIM
+
+* 로보 어드바이저 iOS 앱 프로토타이핑
+* 단독 개발
+* Objective-C
 
 # Education
 
