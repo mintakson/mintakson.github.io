@@ -9,10 +9,6 @@ chart: true
 I'm **Mintak Son**, who is full-stack developer with high interest and experience on client-side mobile app development and UX.  
 Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea Olympiad of Informatics).  
 
-I'm **Mintak Son**, who is full-stack developer with high interest and experience on client-side mobile app development and UX.  
-Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea Olympiad of Informatics).  
-
-
 ***
 
 # Work Experiences
@@ -22,14 +18,42 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 **Full-stack Software Engineer**  
 *Nov 2015 ~ Current*
 
-* 인공지능
-* DAU 2.5M+, MAU 22M+, 동시접속자수 110,000+, Daily API Call 150M+
-* 81개 언어로 전 세계 1억 이상의 누적 사용자에게 서비스.
-* 월 2000만 명의 사용자(MAU)에게 하루 2억 회 이상의 대화 응답 제공 기록.
-* iOS 전체 1위 42개국 (스페인, 중국, 대한민국, 이스라엘, 태국, 노르웨이, 홍콩, 필리핀, 멕시코, 아르헨티나 등)
-* iOS 전체 20위 이상 51개국 (2위 : 미국, 스위스, 사우디아라비아, 아일랜드, 베트남 등. 3~5위 : 프랑스, 이집트, 인도네시아, 벨기에, 대만, 아랍에미리트 등. 6~20위 : 일본, 뉴질랜드, 캐나다, 러시아, 브라질, 호주, 캄보디아, 폴란드 등)
-* Android 전체 1위 14개국 (아르헨티나, 태국, 싱가폴, 파라과이, 필리핀, 멕시코, 칠레, 코스타리카, 스페인 등)
-* Android 전체 20위 이상 29개국 (미국, 중국, 아일랜드, 호주, 인도네시아, 프랑스, 말레이지아, 이태리, 대만, 폴란드, 크로아티아, 노르웨이, 벨기에, 카자흐스탄, 슬로베니아, 이스라엘 등)
+* 인공지능 채팅봇 서비스로, 81개 언어를 지원하는 글로벌 서비스입니다.
+* iOS 전체 1위 42개국, Android 전체 1위 14개국<br/>
+동시접속자수 110K+, DAU 2.5M+, MAU 22M+, 누적 사용자 100M+, 일일 API Call 200M+
+* iOS 와 안드로이드 앱의 리빌딩, 서버 개발 및 운영까지 개발 전반을 담당하고 있으며<br/>
+최근에는 딥러닝, 머신러닝을 이용한 여러 시도를 하고 있습니다.
+* 병역특례 산업기능요원으로 근무중입니다.
+
+<ul class="tag-box inline">
+  <li><a>Javascript</a></li>
+  <li><a>Python</a></li>
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+  <li><a>Android</a></li>
+  <li><a>node.js</a></li>
+  <li><a>django</a></li>
+  <li><a>Elasticsearch</a></li>
+  <li><a>MySQL</a></li>
+  <!-- <br/> -->
+  <li><a>Amazon Aurora</a></li>
+  <li><a>AWS EC2</a></li>
+  <li><a>AWS Elastic Beanstalk</a></li>
+  <li><a>AWS RDS</a></li>
+  <li><a>AWS VPC</a></li>
+  <li><a>AWS Route 53</a></li>
+  <!-- <br/> -->
+  <li><a>Machine Learning</a></li>
+  <li><a>Bayes Classifier</a></li>
+  <!-- <br/> -->
+  <li><a>redmine</a></li>
+  <li><a>Slack</a></li>
+  <li><a>Google Analytics</a></li>
+  <li><a>Firebase</a></li>
+  <!-- <br/> -->
+  <li><a>ad networks</a></li>
+</ul>
 
 ***
 
@@ -37,20 +61,43 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 **iOS Software Engineer**  
 *Nov 2014 ~ Oct 2015 (1y)*
 
-### ROUND
+### ROUND <img src="{{ site.img_url }}/about/bi_round.jpg" alt="ROUND logo" style="float: right; max-height:60px;">
 
 * 위치 기반의 익명 SNS 앱으로, iOS 앱 개발을 단독으로 맡았습니다.
 * 현재는 서비스가 중단된 상태입니다.
 
-### Tyle (Project Code)
+<ul class="tag-box inline">
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+</ul>
+
+### Tyle (Project Code) <img src="{{ site.img_url }}/about/bi_tyle.png" alt="tyle logo" style="float: right; max-height:60px;">
 
 * 초기 기술 프로토타이핑과 iOS 앱 개발을 단독으로 맡았습니다.
 * 프로젝트로 진행됐으나, 실제로 서비스가 런칭되진 못했습니다.
 
-### Hitch (Project Code)
+<ul class="tag-box inline">
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+  <!-- <br/> -->
+  <li><a>OpenCV</a></li>
+</ul>
+
+### Hitch (Project Code) <img src="{{ site.img_url }}/about/bi_hitch.png" alt="hitch logo" style="float: right; max-height:60px;">
 
 * PM 으로 서비스 기획과 iOS 앱 개발을 단독으로 맡았습니다.
 * 프로젝트로 진행됐으나, 실제로 서비스가 런칭되진 못했습니다.
+
+<ul class="tag-box inline">
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+  <!-- <br/> -->
+  <li><a>moqups.com</a></li>
+  <!-- <br/> -->
+</ul>
 
 ***
 
@@ -70,9 +117,30 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 **iOS Software Engineer**  
 *Apr 2013 ~ Jul 2014 (1y 4m) | San Francisco Bay Area*
 
-### Frankly
+### Frankly <img src="{{ site.img_url }}/about/bi_frankly.png" alt="Frankly logo" style="float: right; max-height:60px;">
+
+* 헤헤
+* 헤헤
+
+<ul class="tag-box inline">
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+  <!-- <br/> -->
+</ul>
 
 ### Subscribed (Project Code)
+
+* 헤헤
+* 헤헤
+
+<ul class="tag-box inline">
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+  <!-- <br/> -->
+  <li><a>parse.com</a></li>
+</ul>
 
 ***
 
@@ -80,45 +148,102 @@ Started to code at 10 years old with GW-BASIC and bronze medalist of KOI (Korea 
 **iOS Software Engineer**  
 *Apr 2012 ~ Apr 2014 (2y 1m) | Seoul*
 
-### TicToc, TicToc Plus
+### TicToc, TicToc Plus <img src="{{ site.img_url }}/about/bi_tictoc.png" alt="tictoc logo" style="float: right; max-height:60px;">
 
-### Gurum
+* 채팅 메신저
+* mVoIP
+* 스티커
+
+<ul class="tag-box inline">
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+  <!-- <br/> -->
+  <li><a>mVoIP</a></li>
+</ul>
+
+### Gurum <img src="{{ site.img_url }}/about/bi_gurum.png" alt="tictoc logo" style="float: right; max-height:60px;">
+
+* 그렇습니다 그러하오 헤헤헤
+
+<ul class="tag-box inline">
+  <li><a>Objective-C</a></li>
+  <!-- <br/> -->
+  <li><a>iOS</a></li>
+  <!-- <br/> -->
+  <li><a>mVoIP</a></li>
+</ul>
 
 ***
 
-## KOSFAN <img src="{{ site.img_url }}/about/bi_kosfan.png" alt="KOSFAN logo" style="float: right; max-height:60px;">
+## KOSFAN <img src="{{ site.img_url }}/about/bi_kosfan.png" alt="KOSFAN logo" style="float: right; max-height:30px;">
 **CTO, Co-founder**  
 *Jun 2011 ~ Mar 2012 (10m)*
 
+<ul class="tag-box inline">
+  <li><a>HTML5</a></li>
+  <li><a>CSS</a></li>
+  <li><a>PHP</a></li>
+  <!-- <br/> -->
+  <li><a>CodeIgniter</a></li>
+  <!-- <br/> -->
+  <li><a>CUBRID</a></li>
+  <!-- <br/> -->
+  <li><a>Java</a></li>
+</ul>
+
 ***
 
-# Project
+## Freelancer
 
-## GetBeauty
+### GetBeauty
 
 * 미국 내 성형외과 의사-환자 매칭 서비스 (앱/웹)
 * 백엔드 및 웹 프론트 엔드 담당
 * 단독 개발
-* HTML5, CSS, Python, django
 
-## Greenlite
+<ul class="tag-box inline">
+  <li><a>Python</a></li>
+  <li><a>django</a></li>
+  <li><a>HTML5</a></li>
+  <li><a>CSS</a></li>
+  <li><a>MySQL</a></li>
+  <li><a>AWS</a></li>
+</ul>
+
+### Greenlite
 
 * 미국 내 익명 고민상담 서비스
 * iOS 클라이언트 개발 담당
 * 팀 멤버 2명, Lead Engineer
-* Swift
 
-## Hyundai-Card
+<ul class="tag-box inline">
+  <li><a>iOS</a></li>
+  <li><a>Swift</a></li>
+</ul>
+
+### Hyundai-Card
 
 * 유전 알고리즘을 이용해 신입사원 최적의 부서 배치
 * 단독 개발
-* HTML5, bootstrap, Python
 
-## GetAIM
+<ul class="tag-box inline">
+  <li><a>Python</a></li>
+  <li><a>HTML5</a></li>
+  <li><a>bootstrap</a></li>
+  <li><a>django</a></li>
+  <li><a>Genetic Algorithm</a></li>
+</ul>
+
+### GetAIM
 
 * 로보 어드바이저 iOS 앱 프로토타이핑
 * 단독 개발
-* Objective-C
+
+<ul class="tag-box inline">
+  <li><a>iOS</a></li>
+  <li><a>Objective-C</a></li>
+</ul>
 
 # Education
 

@@ -7,7 +7,7 @@
 
 # Site settings
 title:          mintakson.com
-description:    Mintak Son, who is software engineer.
+description:    Mintak Son, <br/> Software Engineer.
 url:            http://mintakson.com
 baseurl:        ""
 css_url:        "/static/css"
